@@ -10,8 +10,8 @@ Drop SafeCrypt.cs and SafeCrypt.php into your project.
 
 C#:
 
-    var EncryptionKey = "...";
-    var ValidationKey = "...";
+    var EncryptionKey = "..."; //64-char hex
+    var ValidationKey = "..."; //64-char hex
     
     var token = "tlb,Troels Liebe Bentsen";
     var sc = new SafeCrypt(EncryptionKey, ValidationKey);
